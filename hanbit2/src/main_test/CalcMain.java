@@ -2,7 +2,7 @@ package main_test;
 
 import java.util.Scanner;
 
-import grade.Grade;
+import grade.GradeBean;
 import syntax.Calculator;
 
 /**

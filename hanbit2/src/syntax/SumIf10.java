@@ -12,12 +12,14 @@ public class SumIf10 {
 	public static void main(String[] args) {
          //문제 : for-loop 과 syso를 한번만 써서 홀수 합, 짝수합을 구하시오
         int oddsum=0, evensum=0;
-		for (int i = 1; i <= 10; i+=2) {
+		for (int i = 0; i <= 10; i++) {
 			if (i%2==0) {
-				evensum +=i;
-			} else {
-				i= oddsum;
-			}
+				evensum = evensum +i;
+				continue;
+				
+			} 
+				oddsum = oddsum +i;
+			
 		}
 		System.out.println("홀수합은 "+oddsum+"이고, 짝수의 합은 "+evensum+"이다");
 	}
