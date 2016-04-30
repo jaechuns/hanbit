@@ -24,7 +24,7 @@ public class KaupMain2 {
 			default: System.out.println("1, 2번만 선택이 가능합니다.");
 				break;
 			}
-    		
+    		//
 
 		    
 		    KaupBean kaup = new KaupBean();
